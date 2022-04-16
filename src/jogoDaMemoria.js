@@ -5,7 +5,7 @@ class JogoDaMemoria {
         this.personagensIniciais = [
             //caminho sempre relativo ao index.html
             {img:'./imagens/chewbaca.png', nome:'chewbaca'},
-            {img:'./imagens/boba_fet.png', nome:'boba_fet'},
+            {img:'./imagens/c3po.png', nome:'c3po'},
             {img:'./imagens/darth_vader.png', nome:'darth_vader'},
             {img:'./imagens/han_solo.png', nome:'han_solo'},
             {img:'./imagens/princess_leia.png', nome:'princess_leia'},
