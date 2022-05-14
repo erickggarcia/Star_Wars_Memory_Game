@@ -7,12 +7,95 @@
     <title>Memory Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
-        body{
-        background-image: url(./imagens/capa.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
+
+        html, body {
+            box-sizing: border-box;
         }
+
+        body.container-fluid {
+            background-color: black;
+            background-image: url(./imagens/capa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        @media only screen and (max-width:540px) {
+
+            body.container-fluid {
+            background-color: black;
+            background-image: url(./imagens/capaMobile.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            color: white;
+        }
+
+            div#conteudo .row {
+                width: 100%;
+                margin: 25% auto;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div.col-md-3 {
+                padding: 15px 0px 15px 0px;
+                width: 0%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 25%;
+            }
+
+            div.card {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+
+            div.card img {
+                width: 6em;
+            }
+        }
+
+        @media only screen and (max-width: 280px) {
+
+            body.container-fluid {
+            background-color: black;
+            background-image: url(./imagens/capaMobile.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            color: white;
+            }
+
+            div#conteudo .row {
+                width: 100%;
+                margin: 25% auto;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div.col-md-3 {
+                padding: 15px 0px 15px 0px;
+                width: 0%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 25%;
+            }
+
+            div.card {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+
+            div.card img {
+                width: 4em;
+            }
+        }
+        
     </style>
 </head>
 
