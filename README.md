@@ -2,8 +2,6 @@
 
 Jogo da memória com tema de Star Wars, feito com JavaScript puro, sem frameworks. As cartas são embaralhadas, ficam visíveis por alguns segundos para o jogador memorizar e depois são escondidas. O objetivo é encontrar os pares de personagens.
 
-Projeto desenvolvido seguindo o curso Fundamentos do JavaScript, do [Erick Wendel](https://github.com/ErickWendel).
-
 🔗 **Jogue agora:** [erickggarcia.github.io/Star_Wars_Memory_Game](https://erickggarcia.github.io/Star_Wars_Memory_Game/)
 
 ---
